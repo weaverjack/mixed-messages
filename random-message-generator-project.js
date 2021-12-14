@@ -1,4 +1,8 @@
 
+//function to create random number with max and min that will vary based on key length
+function generateRandomNumber(num) {
+    Math.floor(Math.random()*(num))
+};
 
 //create object to hold the message elements that will be randomized. 
 const thingsToDo = {
